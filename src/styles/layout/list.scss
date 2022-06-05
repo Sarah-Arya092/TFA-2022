@@ -1,0 +1,29 @@
+.taskList{
+    text-decoration: none;
+    list-style: circle;
+    max-width: 50vw;
+    line-height: 150%;
+
+    &--el{
+        color: #000000;
+    }
+}
+
+.card{
+    display: flex;
+}
+.witness{
+    display: block;
+
+    &--one{
+
+    }
+
+    &--two{
+
+    }
+
+    &--three{
+        
+    }
+}

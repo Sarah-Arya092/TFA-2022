@@ -1,0 +1,46 @@
+.title{
+    font-family: 'Averia Sans Libre', cursive;
+
+    &--subtitle{
+        font-size: 38px;
+    }
+    
+    &__big{
+        font-size: 109px;
+        top: 13%;
+        left: 23%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    &__small{
+        font-size: 47px;
+
+        &--subtitle{
+            left: 2%;
+            top: 26%;
+            font-size: 38px;
+            max-width: 42vw;
+            text-align: center;
+            color: white;
+        }
+
+        &--healthy{
+            left: 10%;
+            top: 58%;
+            color: white;
+        }
+
+        &--student{
+            left: 30%;
+            top: 50%;
+            color: #6302FF;
+        }
+
+        &--loading{
+            left: 50%;
+            top: 78%;
+            color: white;
+        }
+    }
+}
