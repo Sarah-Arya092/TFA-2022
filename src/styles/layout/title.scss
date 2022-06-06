@@ -1,55 +1,66 @@
 .title{
     font-family: 'Averia Sans Libre', cursive;
+    margin-left: 10px;
+
+    &--first{
+        margin: 8px 11px 5px;
+    }
 
     &--subtitle{
         font-size: 38px;
+        line-height: 1.5;
+        color: $color--purple;
     }
     
     &__big{
+        padding-top: 166px;
         font-size: 109px;
-        top: 13%;
-        left: 23%;
-        transform: translate(14%, 37%);
-        color: white;
+        color: $color--white;
+        text-align: center;
+
+        &--credits{
+            color: $color--purple;
+            font-size: 58px;
+            line-height: 1.5;
+            margin-top: 135px;
+        }
     }
 
     &__small{
         font-size: 47px;
+        line-height: 150%;
 
         &--subtitle{
-            left: 2%;
-            top: 26%;
-            font-size: 38px;
-            max-width: 42vw;
+            font-size: 31px;
+            line-height: 140%;
             text-align: center;
-            color: white;
+            color: $color--white;
         }
 
         &--healthy{
-            left: 10%;
-            top: 58%;
-            color: white;
+            color: $color--purple;
+            margin: 135px 10px 58px;
         }
 
         &--student{
             left: 30%;
             top: 50%;
-            color: #6302FF;
+            color: $color--purple;
         }
 
         &--loading{
-            left: 50%;
-            top: 78%;
-            color: white;
+            color: $color--purple;
+            margin: 58px 20px 34px;
+                text-align: center;
         }
 
         &--card{
-            color: #6302FF;
+            color: $color--purple;
             font-size: 25px;
         }
 
         &--subtitleCard{
-            color: #686868;
+            color: $color--grey;
             font-size: 20px;
         }
     }
@@ -65,10 +76,13 @@
         
         &__big{
             font-size: 109px;
-            top: 13%;
             left: 23%;
-            transform: translate(14%, 37%);
-            color: white;
+            color: $color--white;
+            margin-left: 25%;
+
+            &--credits{
+                color: $color--purple;
+            }
         }
 
         &__small{
@@ -76,38 +90,37 @@
 
             &--subtitle{
                 left: 2%;
-                top: 26%;
                 font-size: 38px;
                 max-width: 42vw;
                 text-align: center;
-                color: white;
+                color: $color--white;
             }
 
             &--healthy{
                 left: 10%;
                 top: 58%;
-                color: white;
+                color: $color--white;
             }
 
             &--student{
                 left: 30%;
                 top: 50%;
-                color: #6302FF;
+                color: $color--purple;
             }
 
             &--loading{
                 left: 50%;
                 top: 78%;
-                color: white;
+                color: $color--white;
             }
 
             &--card{
-                color: #6302FF;
+                color: $color--purple;
                 font-size: 25px;
             }
 
             &--subtitleCard{
-                color: #686868;
+                color: $color--grey;
                 font-size: 20px;
             }
         }

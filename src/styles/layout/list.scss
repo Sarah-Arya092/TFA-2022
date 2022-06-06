@@ -1,3 +1,73 @@
+.taskList{
+    text-decoration: none;
+    list-style: circle;
+    max-width: 88vw;
+    line-height: 150%;
+    margin-left: 20px;
+
+    &--el{
+        color: #000000;
+    }
+}
+
+.card{
+    display: flex;
+}
+.witness{
+    display: block;
+    background-color: white;
+    padding: 20px;
+    margin: 47px 20px 47px;
+    border-radius: 9px;
+    box-shadow: 2px 3px 54px -6px rgba(0, 0, 0, 0.25);
+}
+
+.testimony{
+    color: #686868;
+    font-size: 20px;
+}
+
+.linkList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $color--white;
+}
+
+.linkList, .footer--liste{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+.colorList{
+
+}
+
+.color{
+    width: 50px;
+    height: 30px;
+    border-radius: 9px;
+    border: groove 3px;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    left: 60px;
+
+    &--one{
+        background-color: $color--white;
+    }
+
+    &--two{
+        background-color: $color--purple;
+    }
+
+    &--three{
+        background-color: $color--grey;
+    }
+}
 
 @media (min-width: 1000px) {
     .taskList{
