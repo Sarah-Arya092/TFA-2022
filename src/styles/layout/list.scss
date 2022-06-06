@@ -1,29 +1,41 @@
-.taskList{
-    text-decoration: none;
-    list-style: circle;
-    max-width: 50vw;
-    line-height: 150%;
 
-    &--el{
-        color: #000000;
-    }
-}
+@media (min-width: 1000px) {
+    .taskList{
+        text-decoration: none;
+        list-style: circle;
+        max-width: 50vw;
+        line-height: 150%;
 
-.card{
-    display: flex;
-}
-.witness{
-    display: block;
-
-    &--one{
-
+        &--el{
+            color: #000000;
+        }
     }
 
-    &--two{
+    .card{
+        display: flex;
+    }
+    .witness{
+        display: block;
+        background-color: white;
+        padding: 20px;
+        border-radius: 9px;
+        box-shadow: 2px 3px 54px -6px rgba(0, 0, 0, 0.25);
 
+        &--one{
+
+        }
+
+        &--two{
+
+        }
+
+        &--three{
+            
+        }
     }
 
-    &--three{
-        
+    .testimony{
+        color: #686868;
+        font-size: 20px;
     }
 }
