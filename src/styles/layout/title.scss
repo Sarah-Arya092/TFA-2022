@@ -18,7 +18,7 @@
         color: $color--white;
         text-align: center;
 
-        &--credits{
+        &--uikit{
             color: $color--purple;
             font-size: 58px;
             line-height: 1.5;
@@ -78,9 +78,10 @@
             font-size: 109px;
             left: 23%;
             color: $color--white;
-            margin-left: 25%;
+            margin-left: 15%;
+            text-align: inherit;
 
-            &--credits{
+            &--uikit{
                 color: $color--purple;
             }
         }
@@ -89,7 +90,6 @@
             font-size: 47px;
 
             &--subtitle{
-                left: 2%;
                 font-size: 38px;
                 max-width: 42vw;
                 text-align: center;
@@ -97,20 +97,14 @@
             }
 
             &--healthy{
-                left: 10%;
-                top: 58%;
                 color: $color--white;
             }
 
             &--student{
-                left: 30%;
-                top: 50%;
                 color: $color--purple;
             }
 
             &--loading{
-                left: 50%;
-                top: 78%;
                 color: $color--white;
             }
 
