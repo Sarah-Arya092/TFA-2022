@@ -1,3 +1,13 @@
+@import 'utils/variables';
+@import 'components/type';
+@import 'layout/title';
+@import 'layout/list';
+@import 'layout/layout';
+@import 'layout/diary';
+@import '../../node_modules/modern-normalize/modern-normalize';
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 .title{
     font-family: 'Averia Sans Libre', cursive;
     margin-left: 10px;
@@ -10,6 +20,12 @@
         font-size: 38px;
         line-height: 1.5;
         color: $color--purple;
+    }
+
+    &--audit{
+        color: $color--purple;
+        margin-left: 25px;
+        font-size: 31px;
     }
     
     &__big{
@@ -88,12 +104,18 @@
             margin-top: 22vh;
         }
 
+        &--casestudy{
+            color: $color--purple;
+            text-align: center;
+        }
+
     }
 }
 
 @media (min-width: 1000px) {
     .title{
         font-family: 'Averia Sans Libre', cursive;
+        margin-left: inherit;
 
         &--subtitle{
             font-size: 38px;
@@ -133,7 +155,8 @@
             &--loading{
                 color: $color--white;
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-around;
+                padding-top: 34px;
             }
 
             &--card{
@@ -144,6 +167,12 @@
             &--subtitleCard{
                 color: $color--grey;
                 font-size: 20px;
+            }
+
+            &--casestudy{
+                color: $color--purple;
+                text-align: inherit;
+            
             }
 
             
