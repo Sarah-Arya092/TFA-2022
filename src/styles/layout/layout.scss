@@ -93,10 +93,7 @@
     }
 
     &--footer{
-        background-image: url("../assets/images/bg-footer2.png");
-        background-repeat: no-repeat;
-        background-size: 100vw;
-        background-position-y: 100px;
+        background-color: $color--purple;
     }
 }
 
@@ -147,19 +144,30 @@
         top: 12px;
     }
 
-    .background--header{
-        position: relative;
-        width: 100vw;
-        left: 3px;
-        top: 72px;
+    // .background--header{
+    //     position: relative;
+    //     width: 100vw;
+    //     left: 3px;
+    //     top: 72px;
+    // }
+
+    // .background--footer{
+    //     position: relative;
+    //     width: 100vw;
+    //     top: 795px;
+    // }
+
+    .grid--task{
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        grid-gap: 20px 70px;
+        padding: 50px;
     }
 
-    .background--footer{
-        position: relative;
-        width: 100vw;
-        top: 795px;
+    .right{
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
-
     
 
     .text{
@@ -167,13 +175,20 @@
         line-height: 150%;
     }
     .text--intro{
-        left: 10%;
-        top: 73%;
         color: white;
         line-height: 150%;
         max-width: 43ch;
+        padding-bottom: 121px;
 
     }
+
+    .text--student{
+        color: $color--grey;
+        line-height: 150%;
+        max-width: 40%;
+    }
+
+    
     .button{
         margin: 10px 15vw 10px;
     }
@@ -190,7 +205,6 @@
     }
     .section{
         width: 100%;
-        height: 200vh;
     }
     .section--intro{
         background-image: url("../assets/images/bg-header.png");
@@ -198,10 +212,16 @@
         background-size: 100vw;
     }
 
+    .section--main{
+        margin-left: 47px;
+    }
+
     .section--footer{
-        background-image: url("../assets/images/bg-footer.png");
-        background-repeat: no-repeat;
-        background-size: 100vw;
+        background-color: $color--purple;
+    }
+
+    .layout{
+        margin: 47px 25px;
     }
 
     .footer--el{

@@ -38,6 +38,7 @@
     list-style-type: none;
     padding: 20px;
     margin: 0;
+    background-color: #6302FF;
 }
 
 
@@ -68,6 +69,22 @@
         background-color: $color--grey;
     }
 }
+
+.creditsList{
+    list-style: none;
+    padding: 47px 25px;
+
+}
+
+.creditsList a{
+    text-decoration: none;
+}
+
+.link--credits{
+    padding-top: 25px;
+}
+
+
 
 @media (min-width: 1000px) {
     .taskList{
