@@ -119,6 +119,7 @@
 
         &--subtitle{
             font-size: 38px;
+            margin-left: 27px;
         }
         
         &__big{
@@ -135,6 +136,7 @@
 
         &__small{
             font-size: 47px;
+            margin-left: 27px;
 
 
             &--subtitle{
@@ -142,6 +144,7 @@
                 max-width: 42vw;
                 text-align: center;
                 color: $color--white;
+                margin-left: 27px;
             }
 
             &--healthy{
